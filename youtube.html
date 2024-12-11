@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YouTube.com</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/general.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/video.css" />
+        <link rel="stylesheet" href="styles/sidebar.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-section">
+                <img
+                    class="hamburger-menu"
+                    src="icons/hamburger-menu.svg"
+                    alt="Menu"
+                />
+                <img
+                    class="youtube-logo"
+                    src="icons/youtube-logo.svg"
+                    alt="YouTube Logo"
+                />
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search" />
+                <button class="search-button">
+                    <img
+                        class="search-icon"
+                        src="icons/search.svg"
+                        alt="Search Icon"
+                    />
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img
+                        class="voice-search-icon"
+                        src="icons/voice-search-icon.svg"
+                        alt="Voice Search Icon"
+                    />
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img
+                        class="upload-icon"
+                        src="icons/upload.svg"
+                        alt="Upload Icon"
+                    />
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-icon-container">
+                    <img
+                        class="youtube-apps-icon"
+                        src="icons/youtube-apps.svg"
+                        alt="YouTube Apps"
+                    />
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notification-icon-container">
+                    <img
+                        class="notification-icon"
+                        src="icons/notifications.svg"
+                        alt="Notifications"
+                    />
+                    <div class="tooltip">Notifications</div>
+                    <div class="notifications-count">3</div>
+                </div>
+                <img
+                    class="current-user-picture"
+                    src="img/my-channel.jpeg"
+                    alt="User Profile Picture"
+                />
+            </div>
+        </header>
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg" alt="Home Icon" />
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg" alt="Explore Icon" />
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg" alt="Subscriptions Icon" />
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg" alt="Originals Icon" />
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg" alt="YouTube Music Icon" />
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg" alt="Library Icon" />
+                <div>Library</div>
+            </div>
+        </nav>
+        <main>
+            <section class="video-grid">
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a
+                            href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+                            target="_blank"
+                            class="video-title-link"
+                        >
+                            <img
+                                class="thumbnail"
+                                src="img/thumbnail-1.webp"
+                                alt="Thumbnail 1"
+                            />
+                        </a>
+                        <div class="video-time">14:20</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img
+                                class="profile-picture"
+                                src="img/channel-1.jpeg"
+                                alt="Channel 1"
+                            />
+                            <div class="additional">Marques Brownlee</div>
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Talking Tech and AI with Google CEO Sundar
+                                Pichai!
+                            </p>
+                            <p class="video-author">Marques Brownlee</p>
+                            <p class="video-stats">
+                                3.4M views &#183; 6 months ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-preview">
+                    <div class="thumbnail-row">
+                        <a
+                            href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+                            target="_blank"
+                            class="video-title-link"
+                        >
+                            <img
+                                class="thumbnail"
+                                src="img/markiplier.webp"
+                                alt="Thumbnail 2"
+                            />
+                        </a>
+                        <div class="video-time">8:22</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img
+                                class="profile-picture"
+                                src="img/channel-2.jpeg"
+                                alt="Channel 2"
+                            />
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Try Not To Laugh Challenge #9
+                            </p>
+                            <p class="video-author">Markiplier</p>
+                            <p class="video-stats">
+                                19M views &#183; 4 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
